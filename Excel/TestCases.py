@@ -7,7 +7,7 @@ driver.get("http://demo.guru99.com/test/newtours/")
 driver.maximize_window()
 driver.implicitly_wait(5)
 
-path = "C:\\Users\\aniket bista\\DDT\\Excel\\docs\\Login1.xlsx"
+path = "..\\DDT\\Excel\\docs\\Login1.xlsx"
 
 rows = XLUtils.getRowCount(path, 'Sheet1')
 
